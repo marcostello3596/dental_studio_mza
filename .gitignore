@@ -1,0 +1,30 @@
+# macOS metadata
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+
+# Logs / dependencias
+node_modules/
+*.log
+npm-debug.log*
+
+# Documentos privados del estudio (no se publican)
+Dental Studio - Brand Guideline 2026.pdf
+Dental_Studio_Plan_Crecimiento_30_dias.pdf
+
+# Contenido interno de marketing (no es parte del sitio)
+Calendario Abril 2026/
+story_*.png
+post_*.png
