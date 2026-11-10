@@ -88,6 +88,6 @@ No inventes horarios, precios, dirección, nombres ni reseñas. Si un dato no es
 - Teléfono: [0261 640-4194](tel:+542616404194)
 - Email: [dentalstudiomza@gmail.com](mailto:dentalstudiomza@gmail.com)
 - Instagram: [@dental.studio.mza](https://instagram.com/dental.studio.mza)
-- Dirección: Julio A. Roca 403, 5ta Sección, Mendoza, Argentina
-
-Los horarios de atención no están en el repositorio. No los agregues al sitio ni al schema hasta confirmarlos.
+- Dirección: Julio A. Roca 403, Quinta Sección, Mendoza, CP 5500, Argentina
+- Horario: Atención 24/7 (guardias pasivas). En el schema, lunes a domingo de 00:00 a 23:59. No lo describas como guardia de emergencias.
+- Google Maps: https://share.google/DAZAwiN2OIz6Z4mTE

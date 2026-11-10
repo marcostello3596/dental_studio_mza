@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dentista en Mendoza | Dental Studio — Odontología integral</title>
-  <meta name="description" content="Odontología en Mendoza. Dental Studio atiende en Julio A. Roca 403, 5ta Sección: carillas, ortodoncia, diseño de sonrisa y limpieza. WhatsApp 261 253-3869." />
+  <meta name="description" content="Odontología en Mendoza. Dental Studio, Julio A. Roca 403, Quinta Sección, CP 5500. Atención 24/7 (guardias pasivas). WhatsApp 261 253-3869." />
   <meta name="author" content="Dental Studio" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="theme-color" content="#F4EBDF" />
@@ -14,21 +14,21 @@
   <meta property="og:locale" content="es_AR" />
   <meta property="og:site_name" content="Dental Studio" />
   <meta property="og:title" content="Dentista en Mendoza | Dental Studio — Odontología integral" />
-  <meta property="og:description" content="Odontología en Mendoza. Carillas, ortodoncia, diseño de sonrisa y limpieza en Julio A. Roca 403, 5ta Sección. WhatsApp 261 253-3869." />
+  <meta property="og:description" content="Odontología en Mendoza. Julio A. Roca 403, Quinta Sección, CP 5500. Atención 24/7 (guardias pasivas). WhatsApp 261 253-3869." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.dentalstudiomza.com/" />
-  <meta property="og:image" content="https://www.dentalstudiomza.com/EQUIPO.jpg" />
+  <meta property="og:image" content="https://www.dentalstudiomza.com/og.jpg" />
   <meta property="og:image:type" content="image/jpeg" />
-  <meta property="og:image:width" content="960" />
-  <meta property="og:image:height" content="720" />
-  <meta property="og:image:alt" content="Marcos Tello y Dolores Slysz, equipo de Dental Studio en Mendoza" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Dental Studio – Dentista en Mendoza" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Dentista en Mendoza | Dental Studio — Odontología integral" />
-  <meta name="twitter:description" content="Odontología en Mendoza. Carillas, ortodoncia, diseño de sonrisa y limpieza en Julio A. Roca 403, 5ta Sección. WhatsApp 261 253-3869." />
-  <meta name="twitter:image" content="https://www.dentalstudiomza.com/EQUIPO.jpg" />
-  <meta name="twitter:image:alt" content="Marcos Tello y Dolores Slysz, equipo de Dental Studio en Mendoza" />
+  <meta name="twitter:description" content="Odontología en Mendoza. Julio A. Roca 403, Quinta Sección, CP 5500. Atención 24/7 (guardias pasivas). WhatsApp 261 253-3869." />
+  <meta name="twitter:image" content="https://www.dentalstudiomza.com/og.jpg" />
+  <meta name="twitter:image:alt" content="Dental Studio – Dentista en Mendoza" />
 
   <script type="application/ld+json">
   {
@@ -40,12 +40,20 @@
         "name": "Dental Studio",
         "url": "https://www.dentalstudiomza.com/",
         "description": "Consultorio de odontología integral en Mendoza, Argentina. Carillas de porcelana, ortodoncia, diseño de sonrisa, coronas, prótesis y limpieza.",
-        "image": {
-          "@type": "ImageObject",
-          "url": "https://www.dentalstudiomza.com/EQUIPO.jpg",
-          "width": 960,
-          "height": 720
-        },
+        "image": [
+          {
+            "@type": "ImageObject",
+            "url": "https://www.dentalstudiomza.com/og.jpg",
+            "width": 1200,
+            "height": 630
+          },
+          {
+            "@type": "ImageObject",
+            "url": "https://www.dentalstudiomza.com/EQUIPO.jpg",
+            "width": 960,
+            "height": 720
+          }
+        ],
         "logo": {
           "@type": "ImageObject",
           "url": "https://www.dentalstudiomza.com/ISOLOGO.png",
@@ -56,18 +64,34 @@
         "email": "dentalstudiomza@gmail.com",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Julio A. Roca 403, 5ta Sección",
+          "streetAddress": "Julio A. Roca 403, Quinta Sección",
           "addressLocality": "Mendoza",
           "addressRegion": "Mendoza",
+          "postalCode": "5500",
           "addressCountry": "AR"
         },
-        "hasMap": "https://maps.google.com/?q=Julio+A+Roca+403+Mendoza",
+        "hasMap": "https://share.google/DAZAwiN2OIz6Z4mTE",
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "https://schema.org/Monday",
+            "https://schema.org/Tuesday",
+            "https://schema.org/Wednesday",
+            "https://schema.org/Thursday",
+            "https://schema.org/Friday",
+            "https://schema.org/Saturday",
+            "https://schema.org/Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
         "areaServed": {
           "@type": "City",
           "name": "Mendoza"
         },
         "sameAs": [
-          "https://instagram.com/dental.studio.mza"
+          "https://instagram.com/dental.studio.mza",
+          "https://share.google/DAZAwiN2OIz6Z4mTE"
         ],
         "medicalSpecialty": "https://schema.org/Dentistry",
         "employee": [
@@ -420,6 +444,7 @@
       display: flex;
       flex-direction: column;
       gap: 1rem;
+      max-width: 36rem;
     }
     .hero-based-label {
       font-family: var(--sans);
@@ -1404,9 +1429,9 @@
           <div class="hero-based">
             <span class="hero-based-label">Atendemos en:</span>
             <ul>
-              <li>Mendoza · 5ta Sección</li>
-              <li>Julio A. Roca 403</li>
-              <li><a href="https://maps.google.com/?q=Julio+A+Roca+403+Mendoza" target="_blank" rel="noopener">Ver en mapa →</a></li>
+              <li>Julio A. Roca 403, Quinta Sección, Mendoza, CP 5500, Argentina</li>
+              <li>Atención 24/7 (guardias pasivas)</li>
+              <li><a href="https://share.google/DAZAwiN2OIz6Z4mTE" target="_blank" rel="noopener">Ver en Google Maps</a></li>
               <li><a href="https://wa.me/5492612533869?text=Hola%20Dental%20Studio%2C%20quiero%20pedir%20un%20turno.">WhatsApp 261 253-3869</a></li>
               <li><a href="tel:+542616404194">0261 640-4194</a></li>
               <li><a href="mailto:dentalstudiomza@gmail.com">dentalstudiomza@gmail.com</a></li>
@@ -1710,10 +1735,10 @@
         <p><a href="https://wa.me/5492612533869?text=Hola%20Dental%20Studio%2C%20quiero%20pedir%20un%20turno." target="_blank" rel="noopener">WhatsApp 261 253-3869</a> <span class="cta-contact__alt">(+54 9 261 253-3869)</span></p>
         <p><a href="tel:+542616404194">0261 640-4194</a></p>
         <p><a href="mailto:dentalstudiomza@gmail.com">dentalstudiomza@gmail.com</a></p>
+        <p>Julio A. Roca 403, Quinta Sección, Mendoza, CP 5500, Argentina</p>
+        <p>Atención 24/7 (guardias pasivas)</p>
+        <p><a href="https://share.google/DAZAwiN2OIz6Z4mTE" target="_blank" rel="noopener">Ver en Google Maps</a></p>
       </div>
-      <p class="cta-info js-reveal" data-reveal-delay="0.5">
-        Julio A. Roca 403 · 5ta Sección · Mendoza · AR
-      </p>
     </section>
 
   </main>
@@ -1730,10 +1755,9 @@
         <h5>Visitanos</h5>
         <address class="foot-address">
           <ul>
-            <li>Julio A. Roca 403</li>
-            <li>5ta Sección · Mendoza</li>
-            <li>Argentina</li>
-            <li><a href="https://maps.google.com/?q=Julio+A+Roca+403+Mendoza" target="_blank" rel="noopener">Ver en mapa →</a></li>
+            <li>Julio A. Roca 403, Quinta Sección, Mendoza, CP 5500, Argentina</li>
+            <li>Atención 24/7 (guardias pasivas)</li>
+            <li><a href="https://share.google/DAZAwiN2OIz6Z4mTE" target="_blank" rel="noopener">Ver en Google Maps</a></li>
           </ul>
         </address>
       </div>
